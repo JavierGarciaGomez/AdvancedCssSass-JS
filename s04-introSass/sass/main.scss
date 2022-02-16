@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+$color-primary: #55c57a;
+$color-seconday: #f08a5d;
+$color-terciary: #b83b5e;
+$color-text-dark: #333333;
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;    
+}
+
+nav{
+    margin: 3rem;
+    background-color: $color-primary;
+}
+
+.navigation {
+    list-style: none;
+
+    li{
+        display: inline-block;
+        margin-left: 3rem;
+
+        &:first-child{
+            margin: 0;
+        }
+
+        a:link{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $color-text-dark
+        }
+    }
+
+    
+}

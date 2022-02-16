@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  margin: 3rem;
+  background-color: #55c57a;
+}
+
+.navigation {
+  list-style: none;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-left: 3rem;
+}
+
+.navigation li:first-child {
+  margin: 0;
+}
+
+.navigation li a:link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333333;
+}
+/*# sourceMappingURL=main.css.map */
